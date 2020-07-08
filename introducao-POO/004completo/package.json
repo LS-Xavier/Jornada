@@ -1,0 +1,12 @@
+{
+  "name": "renomear",
+  "version": "1.0.0",
+  "description": "adicionar descrição ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LS-Xavier",
+  "license": "ISC",
+  "type": "module"
+}
