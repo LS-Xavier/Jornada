@@ -1,0 +1,48 @@
+#tituloPrincipal{
+        
+}
+
+#banner{
+    width: 100%;
+}
+.principal{
+    background: gray;
+    padding: 30px 30px;
+    font-size: 18px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tituloSecundario{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#missao{
+    color: red;
+}
+
+.itens{
+    background-color: white;
+}
+
+#beneficios{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.itens{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+.item{
+    font-style: italic;
+}
+
+.imgBeneficios{
+    width: 50%;
+}
