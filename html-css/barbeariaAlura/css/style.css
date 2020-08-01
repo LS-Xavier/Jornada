@@ -1,48 +1,41 @@
-#tituloPrincipal{
-        
+body{
+    font-family: 'Montserrat', sans-serif;
+    
 }
-
-#banner{
+.banner{
     width: 100%;
 }
-.principal{
-    background: gray;
-    padding: 30px 30px;
-    font-size: 18px;
+
+.titluoPrincipal, .beneficios{
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin: 0 0 1em;
 }
 
-#tituloSecundario{
-    text-align: center;
-    margin-top: 20px;
+.principal strong{
+    font-weight: bold;
 }
 
-#missao{
-    color: red;
-}
-
-.itens{
-    background-color: white;
-}
-
-#beneficios{
-    text-align: center;
-    padding: 20px 20px;
-}
-
-.itens{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-
-}
-
-.item{
+.principal em{
     font-style: italic;
 }
 
-.imgBeneficios{
-    width: 50%;
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa h1{
+    text-align: center;
+    font-size: 2em;
+    margin: 2em 0 1em;
+}
+.mapa p{
+    text-align: center;
+    margin: 0 0 1.5em;
 }

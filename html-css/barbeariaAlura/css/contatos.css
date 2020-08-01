@@ -1,8 +1,12 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
 header{
     background-color: gray;
     padding: 20px 0px;
 }
+
 #logo-nav{
     position: relative;
     width: 940px;
@@ -30,10 +34,10 @@ nav a{
 }
 
 nav a:hover{
-    font-size: 25px;
-    color: thistle;
+    color:gold;
     text-decoration: underline;
 }
+
 #produtos{
     width: 940px;
     margin: 60px auto;
@@ -52,31 +56,107 @@ nav a:hover{
     border-radius: 10px;
 
 }
+
 #produtos li:hover{
     border-color: thistle;
 }
+
 #produtos li:hover h2{
     font-size: 30px;
 }
+
 #produtos h2{
     font-size: 22px;
     font-weight: bolder;
 }
+
 .produto-descricao{
     font-size: 19px;
     margin-top: 10px;
 }
+
 .produto-preco{
     font-size: 20px;
     font-weight: bolder;
     margin-top: 10px;
 }
+
 footer{
     text-align: center;
     padding: 30px 0px;
-    background: url(/barbeariaAlura/imagens/bg.jpg);
+    background: url(/imagens/bg.jpg);
 }
+
 #copy{
     font-size: 16px; 
     color: white;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, fomr p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+
+.input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+#select{
+    margin:50px 0 ;
+    font-size: 20px;
+}
+
+#checkbox{
+    margin-top: 15px;
+}
+
+#label{
+    font-size: 20px;
+}
+
+#button{
+    margin: 15px 0;
+    padding: 15px 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border: none;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+#button:hover{
+    background-color: orangered;
+    transform: scale(1.2)
+}
+
+table{
+    width: 40%;
+    margin: 15px 0 60px 0;
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
 }
