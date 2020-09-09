@@ -1,0 +1,22 @@
+.app{
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template: auto;
+    grid-template-rows: 20vh 100vh 30vh;
+}
+
+.header{
+    background-color: #2AB7CA;
+    grid-area: header;
+
+}
+
+.main{
+    background-color: #FFFAFF;
+    grid-area: main;
+}
+
+.footer{
+    background-color: #FED766;
+    grid-area: footer;
+}

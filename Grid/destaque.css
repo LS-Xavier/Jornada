@@ -1,0 +1,19 @@
+.destaque{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 100%;
+}
+
+.primeiro{
+    background-color: #d9adad;
+}
+.segundo{
+    background-color: #84a9ac;
+}
+.terceiro{
+    background-color: #fce2ce;
+}
+.quarto{
+    background-color: #ffc1f3;
+}
